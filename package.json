@@ -1,0 +1,19 @@
+{
+  "name": "portfolio_minified",
+  "version": "1.0.0",
+  "description": "TailwindCSS portfolio",
+  "main": "index.js",
+  "scripts": {
+    "dev": "SET TAILWIND_MODE=WATCH&postcss tailwind.css -o ./src/css/styles.css --watch -verbose",
+    "prod": "SET NODE_ENV=production&postcss tailwind.css -o ./src/css/styles.css"
+  },
+  "author": "Jeffrey",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "cross-env": "^7.0.3",
+    "cssnano": "^5.1.12",
+    "postcss-cli": "^10.0.0",
+    "tailwindcss": "^3.1.6"
+  }
+}

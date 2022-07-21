@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .button{
+        @apply bg-orange-400 rounded-md mx-2 my-1 
+        text-center transition
+        hover:bg-orange-600 duration-300 
+        text-black font-bold;
+    }
+}
